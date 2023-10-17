@@ -1,0 +1,55 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Company {
+  id: String!
+  name: String!
+  address: String!
+  employees: [Employee!]
+}
+
+type Employee {
+  id: String!
+  name: String!
+  email: String!
+  address: String
+  company: Company!
+  companyId: String!
+}
+
+type Query {
+  getAllEmployee: [Employee!]!
+  getEmployee(id: String!): Employee!
+  getAllCompany: [Company!]!
+  getCompany(id: String!): Company!
+}
+
+type Mutation {
+  createEmployee(employeeInput: CreateEmployeeDTO!): Employee!
+  createCompany(companyInput: CreateCompanyInput!): Company!
+  updateCompany(companyInput: UpdateCompanyInput!): Company!
+  removeCompany(id: String!): Company!
+}
+
+input CreateEmployeeDTO {
+  name: String!
+  email: String!
+  address: String
+  companyId: String!
+}
+
+input CreateCompanyInput {
+  name: String!
+  address: String!
+}
+
+input UpdateCompanyInput {
+  id: String!
+  name: String!
+  address: String!
+}
+
+type Subscription {
+  newCompany: Company!
+}
