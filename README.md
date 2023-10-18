@@ -19,11 +19,11 @@
 - [Benefits](#benefits)
 - [Disadvantages](#disadvantages)
 - [Core Concepts](#core-concepts)
+  - [Schema Definition](#schema-definition)
   - [Query](#query)
   - [Mutation](#mutation)
   - [Resolver](#resolver)
   - [Subscription](#subscription)
-  - [Schema Definition](#schema-definition)
 
 # What is GraphQL ?
 
@@ -50,9 +50,13 @@
 
 # Core Concepts
 
+## Schema Definition
+
+- Managing data structures in separate .graphql or .gql files
+
 ## Query
 
-- Request data from server
+- Fetch data from server
 - Analogous to the HTTP GET method in REST
 
 ```bash
@@ -117,9 +121,5 @@ query {
 
 - GraphQL subscriptions are a way to push data from the server to the clients that choose to listen to real time messages from the server
 - Using Pub/Sub and Web Socket mechanism
-
-# Schema Definition
-
-- Managing data structures in separate .graphql or .gql files
 
 ---
