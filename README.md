@@ -16,7 +16,7 @@
 # Agenda
 
 - [What is GraphQL ?](#what-is-graphql)
-- [Advantages](#advantages)
+- [Benefits](#benefits)
 - [Disadvantages](#disadvantages)
 - [Core Concepts](#core-concepts)
   - [Query](#query)
