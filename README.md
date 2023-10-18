@@ -19,9 +19,9 @@
 - [Advantages](#advantages)
 - [Disadvantages](#disadvantages)
 - [Core Concepts](#core-concepts)
-  - [Resolver](#resolver)
   - [Query](#query)
   - [Mutation](#mutation)
+  - [Resolver](#resolver)
   - [Subscription](#subscription)
   - [Schema Definition](#schema-definition)
 
@@ -49,10 +49,6 @@
 3. Response only JSON
 
 # Core Concepts
-
-## Resolver
-
-- Responsible for mapping the query or mutation from the GraphQL schema to the execution logic
 
 ## Query
 
@@ -112,6 +108,10 @@ query {
 
 - Using to interact with data
 - Analogous to the HTTP POST, PUT, PATCH, DELETE methods in REST
+
+## Resolver
+
+- Responsible for mapping the query or mutation from the GraphQL schema to the execution logic
 
 ## Subscription
 
