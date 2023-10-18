@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank">
+  <a href="https://graphql.org" target="blank">
     <img
         width="200"
         src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"
@@ -13,12 +13,12 @@
   is a query language for APIs
 </h3>
 
-# Table of Contents
+# Agenda
 
 - [What is GraphQL ?](#what-is-graphql)
 - [Advantages](#advantages)
 - [Disadvantages](#disadvantages)
-- [Core Concept](#core-concept)
+- [Core Concepts](#core-concepts)
   - [Resolver](#resolver)
   - [Query](#query)
   - [Mutation](#mutation)
@@ -48,7 +48,7 @@
 2. Nested queries can make it challenging to track and optimize data fetching
 3. Response only JSON
 
-# Core Concept
+# Core Concepts
 
 ## Resolver
 
