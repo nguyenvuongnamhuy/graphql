@@ -119,7 +119,7 @@ query {
 
 ## Subscription
 
-- GraphQL subscriptions are a way to push data from the server to the clients that choose to listen to real time messages from the server
+- GraphQL subscriptions are a way to push data from the server to the clients that choose to listen to real time messages
 - Using Pub/Sub and Web Socket mechanism
 
 ---
