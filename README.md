@@ -105,6 +105,31 @@ query {
 }
 ```
 
+- Fragment
+
+```bash
+query {
+  getAllCompany {
+    ...company
+  }
+  getCompany(id: "") {
+    ...company
+  }
+}
+
+fragment company on Company {
+  id
+  name
+  address
+  employees {
+    id
+    name
+    email
+    address
+  }
+}
+```
+
 - Alias for renaming fields
 - Filter, order and paginate data
 
