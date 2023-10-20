@@ -24,7 +24,6 @@
   - [Mutation](#mutation)
   - [Resolver](#resolver)
   - [Subscription](#subscription)
-- [Q&A](#qa)
 
 # What is GraphQL ?
 
@@ -148,7 +147,13 @@ fragment company on Company {
 - GraphQL subscriptions are a way to push data from the server to the clients that choose to listen to real time messages
 - Using Pub/Sub and Web Socket mechanism
 
-# Q&A
+# Note
+
+## References
+
+- https://github.com/nguyenvuongnamhuy/graphql
+
+## Q&A
 
 - Khi subscriber reconnect, du lieu duoc luu o dau de publish ve client ?
 
