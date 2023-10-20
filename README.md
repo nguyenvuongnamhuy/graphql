@@ -24,6 +24,7 @@
   - [Mutation](#mutation)
   - [Resolver](#resolver)
   - [Subscription](#subscription)
+- [Q&A](#qa)
 
 # What is GraphQL ?
 
@@ -50,6 +51,8 @@
 
 # Core Concepts
 
+Using request method `POST`
+
 ## Schema Definition
 
 - Managing data structures in separate .graphql or .gql files
@@ -57,7 +60,6 @@
 ## Query
 
 - Fetch data from server
-- Analogous to the HTTP GET method in REST
 
 ```bash
 query {
@@ -136,7 +138,6 @@ fragment company on Company {
 ## Mutation
 
 - Using to interact with data
-- Analogous to the HTTP POST, PUT, PATCH, DELETE methods in REST
 
 ## Resolver
 
@@ -146,5 +147,9 @@ fragment company on Company {
 
 - GraphQL subscriptions are a way to push data from the server to the clients that choose to listen to real time messages
 - Using Pub/Sub and Web Socket mechanism
+
+# Q&A
+
+- Khi subscriber reconnect, du lieu duoc luu o dau de publish ve client ?
 
 ---
