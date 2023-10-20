@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://graphql.org" target="blank">
+  <a href="#" target="blank">
     <img
         width="200"
         src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"
@@ -9,7 +9,7 @@
 </p>
 
 <h3 align="center">
-  <a href="https://docs.nestjs.com/graphql/quick-start" target="_blank">GraphQL</a>
+  <a href="https://graphql.org" target="_blank">GraphQL</a>
   is a query language for APIs
 </h3>
 
